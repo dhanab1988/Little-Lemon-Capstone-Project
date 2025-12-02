@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Header layout */
+.header {
   display: flex;
-  flex-direction: column;
+  justify-content:space-evenly; /* Logo left + nav right */
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 20px 40px;
+  
+}
+.logo
+{
+  width: 120px;
+  height: auto;
 }
 
-.App-link {
-  color: #61dafb;
+/* Navigation list horizontal */
+.nav-list {
+  list-style: none;
+  display: flex;        /* horizontal layout */
+  gap: 30px;            /* spacing between items */
+  margin: 0;
+  padding: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Nav links */
+.nav-list li a {
+  text-decoration: none;
+  color: #495e57;
+  font-weight: 600;
+}
+.nav-list li a:hover {
+  color: #f4ce14;        /* Little Lemon yellow */
+}
+.footer
+{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around; /* Logo left + nav right */
+  align-items: center;
+  padding: 20px 40px;
+  
 }
