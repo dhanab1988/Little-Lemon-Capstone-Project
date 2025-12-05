@@ -1,34 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
 
-    <!-- OGP tags (optional) -->
-    <meta property="og:title" content="Little Lemon Restaurant" />
-    <meta property="og:description" content="Fresh Mediterranean dishes made with love!" />
-    <meta property="og:image" content="https://example.com/lemon.jpg" />
-    <meta property="og:url" content="https://littlelemon.com" />
-    <meta property="og:type" content="website" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+
+    <!-- Optional: Global CSS file inside public/ -->
+    <!-- Create public/styles.css if you want to use this -->
+    <link rel="stylesheet" href="App.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+
+    <meta
+      name="description"
+      content="Little Lemon Restaurant React App"
+    />
 
     <title>Little Lemon</title>
-
-    <!-- Correct way to link CSS -->
-    <link rel="stylesheet" href="App.css" />
-    <!-- <script>
-    const toggleButton = document.querySelector('.nav-toggle');
-    const navLinks = document.querySelector('.nav-links');
-
-    toggleButton.addEventListener('click', () => {
-      navLinks.classList.toggle('active');
-    });
-  </script> -->
   </head>
 
   <body>
-    <!-- React mounts here -->
-    <div id="root"></div>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
 
-    <!-- React bundle will be injected automatically -->
+    <div id="root"></div>
   </body>
 </html>
