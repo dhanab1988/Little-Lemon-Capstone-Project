@@ -191,7 +191,11 @@ body {
 
 /* ---------------- Card ---------------- */
 .special-card {
+<<<<<<< HEAD
   background: #EDEFEE;
+=======
+  background: #d9d9d9;
+>>>>>>> 3db03a05d377ec2e74dfc3a79ac79a6915178bb5
   border-radius: var(--radius);
   padding: 20px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
@@ -300,6 +304,7 @@ body {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+<<<<<<< HEAD
 }
 
 .hero-text {
@@ -312,6 +317,20 @@ body {
 }
 
 .hero-text h2 {
+=======
+}
+
+.chicago-text {
+  max-width: 460px;
+}
+
+.chicago-text h1 {
+  font-size: 2.6rem;
+  color: var(--accent);
+}
+
+.chicago-text h2 {
+>>>>>>> 3db03a05d377ec2e74dfc3a79ac79a6915178bb5
   font-size: 1.6rem;
   color: #495e57;
   margin-bottom: 1rem;
@@ -342,6 +361,7 @@ body {
   left: 0;
 }
 
+<<<<<<< HEAD
 /* Hamburger (hidden on desktop) */
 .nav-toggle {
   display: none;
@@ -701,6 +721,78 @@ body {
   .booking-page-content button {
     font-size: 0.85rem;
     padding: 8px 12px;
+=======
+/* ---------------- Footer ---------------- */
+footer {
+  background: #edefee;
+  padding: 3rem 1.5rem;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.25rem;
+}
+
+.footer-grid h4 {
+  color: #495e57;
+  margin-bottom: 0.6rem;
+}
+
+.footer-grid ul {
+  list-style: none;
+  line-height: 1.8;
+}
+
+.social-icons a {
+  font-size: 24px;
+  color: #000;
+  margin-right: 15px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: var(--accent);
+}
+
+/* Hamburger (hidden on desktop) */
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #333;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+  .nav {
+    padding: 1rem;
+  }
+
+  .nav-list {
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background: #fff;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    display: none;  /* hidden default */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    overflow: hidden;
+  }
+
+  .nav-list.show {
+    display: flex; /* visible when toggled */
+  }
+
+  .nav-toggle {
+    display: block; /* show hamburger */
+>>>>>>> 3db03a05d377ec2e74dfc3a79ac79a6915178bb5
   }
 }
 /* Time dropdown */
