@@ -25,7 +25,7 @@ The **Little Lemon** project is a responsive front-end web application for a res
 1. Clone the repository:
 
    ```bash
-   git clone <your-repo-link>
+   git clone [<your-repo-link>](https://github.com/dhanab1988/LittleLemon-Project)
    ```
 2. Navigate into the project directory:
 
@@ -60,11 +60,6 @@ little-lemon-capstone/
 └─ README.md
 ```
 
-## Screenshots
-
-![Home Page](./src/assets/homepage-screenshot.png)
-![Menu Page](./src/assets/menu-screenshot.png)
-![Reservation Page](./src/assets/reservation-screenshot.png)
 
 ## Challenges & Solutions
 
