@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/dhanab1988/Little-Lemon-Capstone-Project/static/css/main.364999f8.css",
-    "main.js": "/dhanab1988/Little-Lemon-Capstone-Project/static/js/main.1d67107f.js",
-    "index.html": "/dhanab1988/Little-Lemon-Capstone-Project/index.html",
-    "main.364999f8.css.map": "/dhanab1988/Little-Lemon-Capstone-Project/static/css/main.364999f8.css.map",
-    "main.1d67107f.js.map": "/dhanab1988/Little-Lemon-Capstone-Project/static/js/main.1d67107f.js.map"
+    "main.css": "/Little-Lemon-Capstone-Project/static/css/main.364999f8.css",
+    "main.js": "/Little-Lemon-Capstone-Project/static/js/main.1d67107f.js",
+    "index.html": "/Little-Lemon-Capstone-Project/index.html",
+    "main.364999f8.css.map": "/Little-Lemon-Capstone-Project/static/css/main.364999f8.css.map",
+    "main.1d67107f.js.map": "/Little-Lemon-Capstone-Project/static/js/main.1d67107f.js.map"
   },
   "entrypoints": [
     "static/css/main.364999f8.css",
